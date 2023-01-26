@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test-Suite" >
+   <test name="Magento" >
+       <classes> 
+          <class name="com.eCommerce.driverScript1.script1" />
+          
+          
+       </classes>
+   </test>
+ </suite>

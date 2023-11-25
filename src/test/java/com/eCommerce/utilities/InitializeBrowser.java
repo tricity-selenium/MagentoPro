@@ -119,7 +119,7 @@ public class InitializeBrowser {
 		else
 			if (result.getStatus()==ITestResult.FAILURE)
 		{
-				test.log(Status.FAIL, "failed");
+			test.log(Status.FAIL, "failed");
 			webDriverMethods.takeScreenshot(methodName);
 			//test.log(Status.FAIL, "Screenshot Below" + test.addScreencastFromPath("C:\\Users\\HP\\deepak_workspace\\magentoPro\\screenshots\\"+methodName+".png"));
 			test.log(Status.FAIL , (Markup) test.addScreenCaptureFromPath("C:\\Users\\HP\\deepak_workspace\\magentoPro\\screenshots\\"+methodName+".png"));

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Test-Suite" duration-ms="27018" started-at="2023-01-26T13:21:08 IST" finished-at="2023-01-26T13:21:35 IST">
+  <suite started-at="2023-11-25T17:36:43 IST" name="Test-Suite" finished-at="2023-11-25T17:37:48 IST" duration-ms="64478">
     <groups>
     </groups>
-    <test name="Magento" duration-ms="27018" started-at="2023-01-26T13:21:08 IST" finished-at="2023-01-26T13:21:35 IST">
+    <test started-at="2023-11-25T17:36:43 IST" name="Magento" finished-at="2023-11-25T17:37:48 IST" duration-ms="64478">
       <class name="com.eCommerce.driverScript1.script1">
-        <test-method status="PASS" signature="initiateReports()[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="initiateReports" is-config="true" duration-ms="148" started-at="2023-01-26T13:21:08 IST" finished-at="2023-01-26T13:21:08 IST">
+        <test-method is-config="true" signature="initiateReports()[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:36:43 IST" name="initiateReports" finished-at="2023-11-25T17:36:43 IST" duration-ms="155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initiateReports -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="setUp" is-config="true" duration-ms="8102" started-at="2023-01-26T13:21:08 IST" finished-at="2023-01-26T13:21:16 IST">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:36:43 IST" name="setUp" finished-at="2023-11-25T17:36:58 IST" duration-ms="14633" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="getMethodName" is-config="true" duration-ms="10" started-at="2023-01-26T13:21:16 IST" finished-at="2023-01-26T13:21:16 IST">
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:36:58 IST" name="getMethodName" finished-at="2023-11-25T17:36:58 IST" duration-ms="13" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="userlogin()[pri:1, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="userlogin" duration-ms="5136" started-at="2023-01-26T13:21:16 IST" finished-at="2023-01-26T13:21:21 IST">
+        <test-method signature="userlogin()[pri:1, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:36:58 IST" name="userlogin" finished-at="2023-11-25T17:37:16 IST" duration-ms="17965" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userlogin -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="setTestResult" is-config="true" duration-ms="1" started-at="2023-01-26T13:21:21 IST" finished-at="2023-01-26T13:21:21 IST">
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:16 IST" name="setTestResult" finished-at="2023-11-25T17:37:16 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userlogin status=SUCCESS method=script1.userlogin()[pri:1, instance:com.eCommerce.driverScript1.script1@536aaa8d] output={null}]]]>
+                <![CDATA[[TestResult name=userlogin status=SUCCESS method=script1.userlogin()[pri:1, instance:com.eCommerce.driverScript1.script1@76c3e77a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestResult -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="getMethodName" is-config="true" duration-ms="1" started-at="2023-01-26T13:21:21 IST" finished-at="2023-01-26T13:21:21 IST">
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:16 IST" name="getMethodName" finished-at="2023-11-25T17:37:16 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,15 +57,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="gotoAddProduct()[pri:2, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="gotoAddProduct" duration-ms="6872" started-at="2023-01-26T13:21:21 IST" finished-at="2023-01-26T13:21:28 IST">
+        <test-method signature="gotoAddProduct()[pri:2, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:16 IST" name="gotoAddProduct" finished-at="2023-11-25T17:37:41 IST" duration-ms="24989" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gotoAddProduct -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="setTestResult" is-config="true" duration-ms="1" started-at="2023-01-26T13:21:28 IST" finished-at="2023-01-26T13:21:28 IST">
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:41 IST" name="setTestResult" finished-at="2023-11-25T17:37:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=gotoAddProduct status=SUCCESS method=script1.gotoAddProduct()[pri:2, instance:com.eCommerce.driverScript1.script1@536aaa8d] output={null}]]]>
+                <![CDATA[[TestResult name=gotoAddProduct status=SUCCESS method=script1.gotoAddProduct()[pri:2, instance:com.eCommerce.driverScript1.script1@76c3e77a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -77,7 +77,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestResult -->
-        <test-method status="PASS" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="getMethodName" is-config="true" duration-ms="1" started-at="2023-01-26T13:21:28 IST" finished-at="2023-01-26T13:21:28 IST">
+        <test-method is-config="true" signature="getMethodName(java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:41 IST" name="getMethodName" finished-at="2023-11-25T17:37:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,15 +88,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getMethodName -->
-        <test-method status="PASS" signature="userlogOut()[pri:4, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="userlogOut" duration-ms="6854" started-at="2023-01-26T13:21:28 IST" finished-at="2023-01-26T13:21:35 IST">
+        <test-method signature="userlogOut()[pri:4, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:41 IST" name="userlogOut" finished-at="2023-11-25T17:37:48 IST" duration-ms="6799" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userlogOut -->
-        <test-method status="PASS" signature="setTestResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="setTestResult" is-config="true" duration-ms="1" started-at="2023-01-26T13:21:35 IST" finished-at="2023-01-26T13:21:35 IST">
+        <test-method is-config="true" signature="setTestResult(org.testng.ITestResult,java.lang.reflect.Method)[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:48 IST" name="setTestResult" finished-at="2023-11-25T17:37:48 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=userlogOut status=SUCCESS method=script1.userlogOut()[pri:4, instance:com.eCommerce.driverScript1.script1@536aaa8d] output={null}]]]>
+                <![CDATA[[TestResult name=userlogOut status=SUCCESS method=script1.userlogOut()[pri:4, instance:com.eCommerce.driverScript1.script1@76c3e77a] output={null}]]]>
               </value>
             </param>
             <param index="1">
@@ -108,7 +108,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestResult -->
-        <test-method status="PASS" signature="generateReport()[pri:0, instance:com.eCommerce.driverScript1.script1@536aaa8d]" name="generateReport" is-config="true" duration-ms="572" started-at="2023-01-26T13:21:35 IST" finished-at="2023-01-26T13:21:35 IST">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.eCommerce.driverScript1.script1@76c3e77a]" started-at="2023-11-25T17:37:48 IST" name="generateReport" finished-at="2023-11-25T17:37:48 IST" duration-ms="518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->

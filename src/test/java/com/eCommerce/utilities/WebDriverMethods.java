@@ -114,11 +114,5 @@ public void selectByVisibleText(WebElement locator, String text)
 	
 }
 	
-	
-	
-	
-	
-	
-	
 
 }

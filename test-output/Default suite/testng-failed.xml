@@ -5,11 +5,13 @@
     <classes>
       <class name="com.eCommerce.driverScript1.script1">
         <methods>
+          <include name="userlogin"/>
           <include name="setTestResult"/>
           <include name="getMethodName"/>
           <include name="initiateReports"/>
           <include name="setUp"/>
           <include name="userlogOut"/>
+          <include name="gotoAddProduct"/>
           <include name="generateReport"/>
         </methods>
       </class> <!-- com.eCommerce.driverScript1.script1 -->
